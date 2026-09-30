@@ -1,0 +1,3 @@
+main_system_path: prompts/agent_prompt.txt
+rag_summarize_prompt_path: prompts/rag_prompt.txt
+report_prompt_path: prompts/summary_prompt.txt

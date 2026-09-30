@@ -1,0 +1,14 @@
+collection_name: agent
+persist_directory: vector_db
+k: 3
+
+data_path: knowledge_base/raw
+md5_hex_store: md5.text
+allow_knowledge_file_type: ["txt", "pdf", "md"]
+
+# 优化切块大小：300~350 字符最适合中文制度条款
+chunk_size: 300
+# 重叠 30 个字，保证上下文连接自然
+chunk_overlap: 30
+# 增加中文常见的句子分隔符与换行符
+separators: ["\n\n", "\n", "。", "；", "！", "？", " ", ""]

@@ -1,0 +1,177 @@
+2026-09-28 19:42:48,792 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw/图书馆\入馆须知.txt 内容加载成功
+2026-09-28 19:42:48,984 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw/图书馆\文献借阅办法.txt 内容加载成功
+2026-09-28 19:54:53,451 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\图书馆\入馆须知.txt 内容加载成功
+2026-09-28 19:54:53,659 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\图书馆\文献借阅办法.txt 内容加载成功
+2026-09-28 19:54:53,993 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\学校介绍\学校简介.txt 内容加载成功
+2026-09-28 19:58:18,089 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 19:58:18,090 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 文献借阅办法
+2026-09-28 19:58:18,990 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 19:58:18,991 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '文献借阅办法'}
+2026-09-28 19:58:25,854 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 19:58:33,082 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 19:58:33,083 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 根据提供的参考资料，关于山西工学院《文献借阅办法》的核心内容归纳如下：
+
+1. **借阅凭证与管理**  
+   - 校园一卡通（学生卡/教师卡）是进入图书馆及进行借书、阅览、上机、信息检索等活动的唯一有效凭证。  
+   - 读者须持本人一卡通通过门禁系统入馆，不得转借他人。  
+   - 一卡通遗失须及时到校园一卡通管理中心挂失；挂失前因冒借产生的后果由原持卡人承担。
+
+2. **借阅数量与期限**  
+   - 学生最多可借5册图书，教师最多可借6册，借期均为60天。
+
+3. **超期处理机制**  
+   - 所借图书若超期未还，无论是否已达最大借阅量，系统将自动禁止继续借书。
+
+4. **图书爱护与赔偿规定**  
+   - 严禁污损、撕毁、批注或丢失图书；如有违规，须按规定赔偿，并在办妥赔偿手续前暂停借阅权限。  
+   - 遗失图书可在一个月内以同版次图书偿还，并缴纳5元加工费；逾期或无法购回者，按以下标准赔偿：  
+     - 1985年以前购入：  
+       - 书价 ≤1元：按50倍赔偿；  
+       - 1元 < 书价 <3元：按40倍赔偿；  
+       - 书价 ≥3元：按30倍赔偿。  
+     - 1985–2004年购入：按书价5倍赔偿；  
+     - 2005年以后购入：按书价3倍赔偿。  
+   - 所有赔书款项纳入图书馆购书经费。
+
+5. **离校清还要求**  
+   - 教职工调离、学生毕业或休学前，必须还清所借图书，否则不予办理离校手续。
+2026-09-28 20:17:16,885 - agent - INFO - [vector_store.py:66] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\01_学校信息\学校简介.txt内容已存在知识库内，跳过
+2026-09-28 20:17:17,600 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\01_学校信息\山西工学院2024年公开招聘博士研究生公告.txt 内容加载成功
+2026-09-28 20:17:17,767 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\01_学校信息\计算机科学与技术专业简介.txt 内容加载成功
+2026-09-28 20:17:17,935 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\02_教务管理\计算机科学与技术专业人才培养方案.txt 内容加载成功
+2026-09-28 20:17:18,177 - agent - INFO - [vector_store.py:83] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\03_学生事务\关于2026年中秋节、国庆节放假调休安排的通知.txt 内容加载成功
+2026-09-28 20:17:18,178 - agent - INFO - [vector_store.py:66] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\图书馆\入馆须知.txt内容已存在知识库内，跳过
+2026-09-28 20:17:18,179 - agent - INFO - [vector_store.py:66] - [加载知识库]D:\develop\python_project\Campus-AI-Agent\knowledge_base/raw\图书馆\文献借阅办法.txt内容已存在知识库内，跳过
+2026-09-28 20:18:38,797 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:18:38,798 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 今年国庆如何放假
+2026-09-28 20:18:39,607 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:18:39,608 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '国庆放假安排'}
+2026-09-28 20:18:40,677 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:18:40,958 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:18:40,959 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 现有知识库参考资料中未收录与该问题直接相关的信息。
+2026-09-28 20:19:19,441 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:19:19,441 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 国庆节如何房价
+2026-09-28 20:19:38,340 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:19:38,340 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 国庆如何放假
+2026-09-28 20:19:39,114 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:19:39,115 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '国庆放假安排'}
+2026-09-28 20:19:42,247 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:19:44,955 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:19:44,955 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 根据提供的参考资料，关于2026年国庆节放假安排的核心信息如下：
+
+1. **放假时间**：2026年10月1日（周四）至10月7日（周三）放假调休，共7天。
+
+2. **调休补课/班安排**：
+   - 2026年9月20日（周日）补上10月6日（周二）的课（班）；
+   - 2026年10月10日（周六）补上10月7日（周三）的课（班）。
+
+3. **作息时间调整**：自10月8日起，全校工作及上课时间调整为：
+   - 上午：8:00–12:00；
+   - 下午：14:00–18:00。
+2026-09-28 20:26:23,697 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:26:23,697 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 国庆如何放假
+2026-09-28 20:26:24,853 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:26:24,853 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '国庆放假安排'}
+2026-09-28 20:26:29,262 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:26:33,462 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:26:33,463 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 根据提供的参考资料，关于2026年国庆节放假安排的要点如下：
+
+1. **放假时间**：2026年10月1日（周四）至10月7日（周三）放假调休，共7天。
+
+2. **调休安排**：
+   - 9月20日（周日）补周二课程（或工作）；
+   - 10月10日（周六）补周三课程（或工作）。
+
+3. **作息时间调整**：自10月8日起，执行秋季作息时间：
+   - 上午：8:00–12:00；
+   - 下午：14:00–18:00。
+
+4. **工作要求**：
+   - 各单位须统筹安排假期工作，确保平稳有序；
+   - 中层及以上干部须保持通讯畅通，外出须按规定履行请销假手续；
+   - 做好值班与应急值守，遇突发情况须及时报告，严禁迟报、漏报、瞒报；
+   - 加强校园及学生安全管理；
+   - 党员领导干部须严守廉洁纪律，落实中央八项规定精神，杜绝“节日腐败”。
+2026-09-28 20:27:17,673 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:27:17,674 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 国庆如何放假
+2026-09-28 20:27:18,595 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:27:18,595 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '国庆放假安排'}
+2026-09-28 20:27:21,695 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:27:21,697 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:27:21,697 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 根据提供的参考资料，关于2026年国庆节放假安排的核心信息如下：
+
+1. **放假时间**：2026年10月1日（周四）至10月7日（周三）放假调休，共7天。
+
+2. **调休补课安排**：
+   - 9月20日（周日）补上10月6日（周二）的课程；
+   - 10月10日（周六）补上10月7日（周三）的课程。
+
+3. **作息时间调整**：自10月8日起，全校工作及上课时间调整为：
+   - 上午：8:00–12:00；
+   - 下午：14:00–18:00。
+2026-09-28 20:32:10,519 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:32:10,519 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 计算机科学与技术的培养方案是什么
+2026-09-28 20:32:11,257 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:32:11,258 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '计算机科学与技术专业培养方案'}
+2026-09-28 20:32:17,801 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:32:17,802 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:32:17,803 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 根据提供的参考资料，计算机科学与技术专业培养方案的核心内容提炼如下：
+
+1. **培养目标**  
+   立足计算机行业与产业背景，服务全产业集群信息化建设与数字化转型，培养具备以下能力的高素质应用型人才：  
+   - 掌握必备的数学、自然科学及计算机专业知识；  
+   - 具备计算机系统设计与开发的工程实践能力；  
+   - 拥有创新精神、自我学习能力、团队协作能力。
+
+2. **专业特色**  
+   以计算机相关产业需求为导向，聚焦以下重点领域：  
+   - 大数据、云计算、数据挖掘；  
+   - 网络安全、数据安全、软件安全设计与测试；  
+   - 强调理论与实践技能兼备，适应社会需求，就业形势良好。
+
+3. **核心课程**  
+   包括但不限于：  
+   - 面向对象程序设计、数据结构、操作系统、数据库原理及应用；  
+   - 计算机组成原理、计算机网络、软件工程；  
+   - 数字图像处理、大数据技术与应用、云计算原理与应用；  
+   - 网络安全技术、软件安全设计与测试技术。
+
+4. **主要实践环节**  
+   - 专业基础实验与综合性实验课程；  
+   - 数据结构、数据库原理、操作系统、计算机网络等课程设计；  
+   - 专业综合实践、毕业实习、毕业设计（论文）；  
+   - 就业培训及各类学科竞赛。
+
+5. **修业年限与学位授予**  
+   - 修业年限：四年；  
+   - 授予学位：工学学士。
+
+6. **服务与就业方向**  
+   毕业生可在信息化、智能化相关的企业或事业单位从事：  
+   - 工程设计、技术开发、项目管理；  
+   - 教学、科研等相关工作。
+2026-09-28 20:32:38,069 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:32:38,069 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 学校有哪些学院
+2026-09-28 20:32:39,363 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:32:39,363 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '山西工学院有哪些学院'}
+2026-09-28 20:32:40,362 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:32:40,364 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:32:40,364 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 现有知识库参考资料中未收录与该问题直接相关的信息。
+2026-09-28 20:32:57,473 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:32:57,474 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 就业情况怎么样
+2026-09-28 20:32:58,513 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:32:58,513 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '山西工学院 就业情况'}
+2026-09-28 20:32:59,207 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:32:59,209 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:32:59,209 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 现有知识库参考资料中未收录与该问题直接相关的信息。
+2026-09-28 20:33:25,669 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:33:25,669 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 毕业生专业信息表
+2026-09-28 20:33:26,416 - agent - INFO - [middleware.py:18] - [tool monitor]执行工具：rag_summarize
+2026-09-28 20:33:26,416 - agent - INFO - [middleware.py:19] - [tool monitor]传入参数：{'query': '毕业生专业信息表'}
+2026-09-28 20:33:27,060 - agent - INFO - [middleware.py:23] - [tool monitor]工具rag_summarize调用成功
+2026-09-28 20:33:27,062 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有3条消息。
+2026-09-28 20:33:27,062 - agent - DEBUG - [middleware.py:39] - [log_before_model]ToolMessage | 现有知识库参考资料中未收录与该问题直接相关的信息。
+2026-09-28 20:39:37,663 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:39:37,663 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 山西工学院2028年就业率是多少？
+2026-09-28 20:39:48,691 - agent - INFO - [middleware.py:38] - [log_before_model]即将调用模型，带有1条消息。
+2026-09-28 20:39:48,692 - agent - DEBUG - [middleware.py:39] - [log_before_model]HumanMessage | 需要
